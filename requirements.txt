@@ -1,0 +1,8 @@
+👉 Tkinter is built-in with Python, so:
+
+```txt
+# No external dependencies required
+
+OR (optional):
+
+tk
