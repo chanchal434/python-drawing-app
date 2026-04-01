@@ -77,11 +77,7 @@ tkinter-whiteboard-app/
 
 ## ⭐ Support
 
-If you like this project, please ⭐ star the repository!
-
-````
-
----
+If you like this project, please ⭐ star the repository
 
 
 
@@ -97,5 +93,5 @@ except:
     pass
 ```
 
----
+
 
