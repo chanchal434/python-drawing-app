@@ -1,4 +1,4 @@
-🎨 Tkinter Whiteboard App
+#🎨 Whiteboard App (Tkinter)
 
 A simple and interactive whiteboard drawing application built using **Python Tkinter**.
 
