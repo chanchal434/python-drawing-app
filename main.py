@@ -57,7 +57,19 @@ class Calculator(BoxLayout):
                 self.result.text = str(eval(self.result.text))
             except Exception:
                 self.result.text = 'ERROR!'
-   
+        
+    def toggle_neg(self):
+            if self.result.text:
+                if self.result.text.startswith('-'):
+                    self.result.text = self.result.text[1:]
+                else:
+                    self.result.text = '-' + self.result.text
+        
+    def convert_percent(self):
+            try:
+                self.result.text = str(float(self.result.text) / 100)
+            except ValueError:
+                self.result.text = 'ERROR!'
    
 
 class CalculatorApp(App):
